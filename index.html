@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Supra API</title>
+    <script defer src="main.js"></script>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header{
+            background-color: aquamarine;
+            padding: 50px;
+        }
+        div{
+            display: flex;
+            padding: 50px;
+        }
+        main{
+            padding-left: 150px;
+        }
+        footer{
+            padding: 50px;
+            background-color: aquamarine;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>ClientAPI</h1>
+    </header>
+    <div>
+    <sidebar>
+        <!--selection de la catégorie-->
+        <h2>Catégorie</h2>
+        <ul class="categories-list">
+            <li><a href="#">Catégorie 1</a></li>
+            <li><a href="#">Catégorie 2</a></li>
+        </ul>
+    </sidebar>
+    <main>
+        <!--catégorie + ID de la catégorie-->
+        <h2>Produit de "Titre de la catégorie"</h2>
+        <ul class="produits-list">
+        <li><a href="#">Produit 1</a></li>
+        <li><a href="#">Produit 2</a></li>
+        </ul>
+    </main>
+</div>
+    <footer>
+        by Chevalier Aleaxandre.
+    </footer>
 </body>
 </html>
